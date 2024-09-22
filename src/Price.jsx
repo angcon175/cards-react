@@ -1,9 +1,10 @@
+import "./Price.css"
 export default function Price({oldPrice,newPrice}){
     return (
-        <div>
-            <span>{oldPrice}</span>
+        <div className="main">
+            <span className="old">{oldPrice}</span>
             &nbsp; &nbsp; &nbsp;
-            <span>{newPrice}</span>
+            <span className="new">{newPrice}</span>
         </div>
     )
 }
